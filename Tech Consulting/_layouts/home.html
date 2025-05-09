@@ -1,0 +1,145 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1>{{ page.hero_title }}</h1>
+      <p>{{ page.hero_subtitle }}</p>
+      <div class="hero-buttons">
+        <a href="{{ page.primary_button_link | relative_url }}" class="btn btn-primary">{{ page.primary_button_text }}</a>
+        <a href="{{ page.secondary_button_link | relative_url }}" class="btn btn-secondary">{{ page.secondary_button_text }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="services-overview">
+  <div class="container">
+    <div class="section-header">
+      <h2>Our Services</h2>
+      <p>Comprehensive tech solutions for your business needs</p>
+    </div>
+    <div class="services-grid">
+      {% for service in site.services limit:3 %}
+      <div class="service-card">
+        <div class="service-icon">
+          <i class="fas {{ service.icon }}"></i>
+        </div>
+        <h3>{{ service.title }}</h3>
+        <p>{{ service.excerpt }}</p>
+        <a href="{{ service.url | relative_url }}" class="read-more">Learn More</a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="section-footer">
+      <a href="{{ "/services" | relative_url }}" class="btn btn-outline">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<section class="about-preview">
+  <div class="container">
+    <div class="about-content">
+      <div class="about-text">
+        <h2>{{ page.about_title }}</h2>
+        <p>{{ page.about_description }}</p>
+        <a href="{{ "/about" | relative_url }}" class="btn btn-secondary">Learn More About Us</a>
+      </div>
+      <div class="about-image">
+        <img src="{{ page.about_image | relative_url }}" alt="About Our Company">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="featured-projects">
+  <div class="container">
+    <div class="section-header">
+      <h2>Featured Projects</h2>
+      <p>See our work in action</p>
+    </div>
+    <div class="projects-grid">
+      {% for project in site.projects limit:3 %}
+      <div class="project-card">
+        <div class="project-image">
+          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+        </div>
+        <div class="project-info">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.excerpt }}</p>
+          <a href="{{ project.url | relative_url }}" class="read-more">View Project</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="section-footer">
+      <a href="{{ "/projects" | relative_url }}" class="btn btn-outline">View All Projects</a>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <h2>What Our Clients Say</h2>
+      <p>Trusted by businesses of all sizes</p>
+    </div>
+    <div class="testimonials-slider">
+      {% for testimonial in page.testimonials %}
+      <div class="testimonial">
+        <div class="testimonial-content">
+          <p>"{{ testimonial.quote }}"</p>
+        </div>
+        <div class="testimonial-author">
+          <div class="author-image">
+            <img src="{{ testimonial.image | relative_url }}" alt="{{ testimonial.name }}">
+          </div>
+          <div class="author-info">
+            <h4>{{ testimonial.name }}</h4>
+            <p>{{ testimonial.position }}, {{ testimonial.company }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <div class="cta-content">
+      <h2>{{ page.cta_title }}</h2>
+      <p>{{ page.cta_description }}</p>
+      <a href="{{ page.cta_button_link | relative_url }}" class="btn btn-primary">{{ page.cta_button_text }}</a>
+    </div>
+  </div>
+</section>
+
+<section class="latest-posts">
+  <div class="container">
+    <div class="section-header">
+      <h2>Latest from Our Blog</h2>
+      <p>Insights and updates from our team</p>
+    </div>
+    <div class="posts-grid">
+      {% for post in site.posts limit:3 %}
+      <div class="post-card">
+        <div class="post-image">
+          <img src="{{ post.image | relative_url }}" alt="{{ post.title }}">
+        </div>
+        <div class="post-info">
+          <span class="post-date">{{ post.date | date: "%B %d, %Y" }}</span>
+          <h3>{{ post.title }}</h3>
+          <p>{{ post.excerpt }}</p>
+          <a href="{{ post.url | relative_url }}" class="read-more">Read More</a>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="section-footer">
+      <a href="{{ "/blog" | relative_url }}" class="btn btn-outline">View All Posts</a>
+    </div>
+  </div>
+</section>

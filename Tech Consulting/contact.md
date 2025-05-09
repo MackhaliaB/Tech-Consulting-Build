@@ -1,0 +1,204 @@
+---
+layout: default
+title: Contact Us
+permalink: /contact/
+---
+
+<section class="page-header">
+  <div class="container">
+    <div class="page-header-content">
+      <h1>Contact Us</h1>
+      <p>Get in touch to discuss your project or ask any questions</p>
+    </div>
+  </div>
+</section>
+
+<section class="contact-section">
+  <div class="container">
+    <div class="contact-content">
+      <div class="contact-info">
+        <h2>Let's Start a Conversation</h2>
+        <p>We're here to help you with your technology needs. Fill out the form and we'll get back to you as soon as possible.</p>
+        
+        <div class="contact-methods">
+          <div class="contact-method">
+            <div class="method-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="method-details">
+              <h3>Email Us</h3>
+              <p>info@yourtechconsulting.com</p>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="method-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="method-details">
+              <h3>Call Us</h3>
+              <p>(555) 123-4567</p>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <div class="method-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="method-details">
+              <h3>Visit Us</h3>
+              <p>123 Tech Street<br>Innovation City, TC 12345</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="social-links">
+          <h3>Connect With Us</h3>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form id="contactForm" action="#" method="POST">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          
+          <div class="form-group">
+            <label for="company">Company Name</label>
+            <input type="text" id="company" name="company">
+          </div>
+          
+          <div class="form-group">
+            <label for="service">Service Interested In</label>
+            <select id="service" name="service">
+              <option value="">Select a Service</option>
+              <option value="web-development">Web Development</option>
+              <option value="app-development">App Development</option>
+              <option value="tech-consulting">Tech Consulting</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          
+          <div class="form-group">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="faq-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Frequently Asked Questions</h2>
+      <p>Common questions about working with us</p>
+    </div>
+    
+    <div class="faq-list">
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>What is your typical project process?</h3>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>Our process typically includes discovery, planning, design, development, testing, and launch phases. We maintain clear communication throughout and involve you at every step to ensure the final product meets your expectations.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>How much does a typical project cost?</h3>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>Project costs vary widely depending on requirements, complexity, and scope. We provide detailed quotes after our initial consultation when we have a clear understanding of your needs. We're transparent about costs and work with various budget ranges.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>How long does a typical project take?</h3>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>Timeline depends on project scope and complexity. Simple websites might take 4-6 weeks, while complex applications can take several months. We'll provide a detailed timeline during our project planning phase.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>Do you provide ongoing support after launch?</h3>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>Yes, we offer various maintenance and support packages to keep your website or application running smoothly after launch. These can include regular updates, security monitoring, performance optimization, and content updates.</p>
+        </div>
+      </div>
+      
+      <div class="faq-item">
+        <div class="faq-question">
+          <h3>What information do you need to start a project?</h3>
+          <span class="toggle-icon">+</span>
+        </div>
+        <div class="faq-answer">
+          <p>To get started, we typically need to understand your business goals, target audience, project requirements, timeline, and budget. During our initial consultation, we'll guide you through the information we need to provide an accurate quote.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const faqItems = document.querySelectorAll('.faq-item');
+    
+    faqItems.forEach(item => {
+      const question = item.querySelector('.faq-question');
+      const answer = item.querySelector('.faq-answer');
+      const toggleIcon = item.querySelector('.toggle-icon');
+      
+      question.addEventListener('click', () => {
+        const isOpen = answer.style.maxHeight;
+        
+        // Close all FAQs
+        document.querySelectorAll('.faq-answer').forEach(ans => {
+          ans.style.maxHeight = null;
+        });
+        document.querySelectorAll('.toggle-icon').forEach(icon => {
+          icon.textContent = '+';
+        });
+        
+        // Open clicked FAQ if it was closed
+        if (!isOpen || isOpen === '0px') {
+          answer.style.maxHeight = answer.scrollHeight + 'px';
+          toggleIcon.textContent = '-';
+        }
+      });
+    });
+  });
+</script>
