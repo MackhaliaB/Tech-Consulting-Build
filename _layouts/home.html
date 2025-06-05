@@ -2,19 +2,6 @@
 layout: default
 ---
 
-<section class="hero">
-  <div class="container">
-    <div class="hero-content">
-      <h1>{{ page.hero_title }}</h1>
-      <p>{{ page.hero_subtitle }}</p>
-      <div class="hero-buttons">
-        <a href="{{ page.primary_button_link | relative_url }}" class="btn btn-primary">{{ page.primary_button_text }}</a>
-        <a href="{{ page.secondary_button_link | relative_url }}" class="btn btn-secondary">{{ page.secondary_button_text }}</a>
-      </div>
-    </div>
-  </div>
-</section>
-
 <section class="services-overview">
   <div class="container">
     <div class="section-header">
@@ -23,7 +10,7 @@ layout: default
     </div>
     <div class="services-grid">
       {% for service in site.services limit:3 %}
-      <div class="service-card">
+      <div class="service-card enhanced-contrast">
         <div class="service-icon">
           <i class="fas {{ service.icon }}"></i>
         </div>
@@ -88,7 +75,7 @@ layout: default
     </div>
     <div class="testimonials-slider">
       {% for testimonial in page.testimonials %}
-      <div class="testimonial">
+      <div class="testimonial enhanced-contrast">
         <div class="testimonial-content">
           <p>"{{ testimonial.quote }}"</p>
         </div>

@@ -1,10 +1,4 @@
----
-layout: default
-title: Industries
-permalink: /industries/
----
-
-<section class="page-header">
+I" <section class="page-header">
   <div class="container">
     <div class="page-header-content">
       <h1>Industries We Serve</h1>
@@ -26,7 +20,7 @@ permalink: /industries/
     <div class="industry-cards">
       <div class="industry-card">
         <div class="industry-image">
-          <img src="/assets/images/industry-healthcare.jpg" alt="Healthcare">
+          <img src="/assets/images/industry-healthcare.jpg" alt="Healthcare" />
           <div class="industry-overlay">
             <h3>Healthcare</h3>
           </div>
@@ -47,7 +41,7 @@ permalink: /industries/
       
       <div class="industry-card">
         <div class="industry-image">
-          <img src="/assets/images/industry-financial.jpg" alt="Financial Services">
+          <img src="/assets/images/industry-financial.jpg" alt="Financial Services" />
           <div class="industry-overlay">
             <h3>Financial Services</h3>
           </div>
@@ -68,9 +62,9 @@ permalink: /industries/
       
       <div class="industry-card">
         <div class="industry-image">
-          <img src="/assets/images/industry-retail.jpg" alt="Retail & E-commerce">
+          <img src="/assets/images/industry-retail.jpg" alt="Retail &amp; E-commerce" />
           <div class="industry-overlay">
-            <h3>Retail & E-commerce</h3>
+            <h3>Retail &amp; E-commerce</h3>
           </div>
         </div>
         <div class="industry-content">
@@ -89,7 +83,7 @@ permalink: /industries/
       
       <div class="industry-card">
         <div class="industry-image">
-          <img src="/assets/images/industry-manufacturing.jpg" alt="Manufacturing">
+          <img src="/assets/images/industry-manufacturing.jpg" alt="Manufacturing" />
           <div class="industry-overlay">
             <h3>Manufacturing</h3>
           </div>
@@ -110,7 +104,7 @@ permalink: /industries/
       
       <div class="industry-card">
         <div class="industry-image">
-          <img src="/assets/images/industry-education.jpg" alt="Education">
+          <img src="/assets/images/industry-education.jpg" alt="Education" />
           <div class="industry-overlay">
             <h3>Education</h3>
           </div>
@@ -131,7 +125,7 @@ permalink: /industries/
       
       <div class="industry-card">
         <div class="industry-image">
-          <img src="/assets/images/industry-government.jpg" alt="Government">
+          <img src="/assets/images/industry-government.jpg" alt="Government" />
           <div class="industry-overlay">
             <h3>Government</h3>
           </div>
@@ -168,7 +162,7 @@ permalink: /industries/
           <a href="#" class="btn-outline">Read Case Study</a>
         </div>
         <div class="case-study-image">
-          <img src="/assets/images/case-study-1.jpg" alt="Healthcare Case Study">
+          <img src="/assets/images/case-study-1.jpg" alt="Healthcare Case Study" />
         </div>
       </div>
       
@@ -180,7 +174,7 @@ permalink: /industries/
           <a href="#" class="btn-outline">Read Case Study</a>
         </div>
         <div class="case-study-image">
-          <img src="/assets/images/case-study-2.jpg" alt="Financial Services Case Study">
+          <img src="/assets/images/case-study-2.jpg" alt="Financial Services Case Study" />
         </div>
       </div>
       
@@ -192,7 +186,7 @@ permalink: /industries/
           <a href="#" class="btn-outline">Read Case Study</a>
         </div>
         <div class="case-study-image">
-          <img src="/assets/images/case-study-3.jpg" alt="Manufacturing Case Study">
+          <img src="/assets/images/case-study-3.jpg" alt="Manufacturing Case Study" />
         </div>
       </div>
     </div>
@@ -208,3 +202,4 @@ permalink: /industries/
     </div>
   </div>
 </section>
+:ET

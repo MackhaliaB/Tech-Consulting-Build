@@ -27,7 +27,7 @@ permalink: /insights/
           </div>
           <h3>How AI is Transforming Business Decision-Making</h3>
           <p>Explore how artificial intelligence is revolutionizing the way businesses make strategic decisions and gain competitive advantages.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="/insights/ai-transforming-business-decisions" class="read-more">Read More</a>
         </div>
       </div>
       
@@ -42,7 +42,7 @@ permalink: /insights/
           </div>
           <h3>5 Critical Steps for a Successful Cloud Migration</h3>
           <p>Learn the essential strategies and best practices to ensure your organization's transition to the cloud is smooth and successful.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="/insights/successful-cloud-migration-steps" class="read-more">Read More</a>
         </div>
       </div>
       
@@ -57,7 +57,7 @@ permalink: /insights/
           </div>
           <h3>The Evolving Landscape of Cybersecurity Threats</h3>
           <p>Stay ahead of emerging cybersecurity challenges with our analysis of current threat landscapes and protection strategies.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="/insights/evolving-cybersecurity-threats" class="read-more">Read More</a>
         </div>
       </div>
       
@@ -72,7 +72,7 @@ permalink: /insights/
           </div>
           <h3>Digital Transformation: Beyond the Buzzword</h3>
           <p>Discover what meaningful digital transformation actually looks like and how to implement changes that drive real business value.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="/insights/digital-transformation-beyond-buzzword" class="read-more">Read More</a>
         </div>
       </div>
       
@@ -87,7 +87,7 @@ permalink: /insights/
           </div>
           <h3>Turning Data into Actionable Business Intelligence</h3>
           <p>Learn how to transform raw data into valuable insights that can guide strategic decision-making and drive business growth.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="/insights/data-to-business-intelligence" class="read-more">Read More</a>
         </div>
       </div>
       
@@ -102,7 +102,7 @@ permalink: /insights/
           </div>
           <h3>Technology Solutions for the Hybrid Workplace</h3>
           <p>Explore the tools and strategies that enable productive, secure, and collaborative hybrid work environments.</p>
-          <a href="#" class="read-more">Read More</a>
+          <a href="/insights/hybrid-workplace-technology" class="read-more">Read More</a>
         </div>
       </div>
     </div>
