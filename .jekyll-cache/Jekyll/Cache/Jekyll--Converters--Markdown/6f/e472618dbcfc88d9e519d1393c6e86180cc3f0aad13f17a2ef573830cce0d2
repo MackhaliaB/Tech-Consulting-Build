@@ -1,0 +1,211 @@
+I"Ø <section class="page-header">
+  <div class="container">
+    <div class="page-header-content">
+      <h1>Industries We Serve</h1>
+      <p>Tailored technology solutions for diverse business sectors</p>
+    </div>
+  </div>
+</section>
+
+<section class="industries-intro">
+  <div class="container">
+    <div class="intro-content">
+      <p>At Graywave Solutions, we understand that each industry faces unique challenges and opportunities. Our team brings specialized expertise across multiple sectors, allowing us to deliver technology solutions that address specific industry needs while driving innovation and growth.</p>
+    </div>
+  </div>
+</section>
+
+<section class="industries-grid">
+  <div class="container">
+    <div class="industry-cards">
+      <div class="industry-card">
+        <div class="industry-image">
+          <img src="/assets/images/industry-healthcare.jpg" alt="Healthcare" />
+          <div class="industry-overlay">
+            <h3>Healthcare</h3>
+          </div>
+        </div>
+        <div class="industry-content">
+          <h3>Healthcare</h3>
+          <p>We help healthcare organizations leverage technology to improve patient care, streamline operations, and ensure compliance with regulatory requirements.</p>
+          <h4>Key Solutions:</h4>
+          <ul>
+            <li>Patient engagement platforms</li>
+            <li>Healthcare data analytics</li>
+            <li>Secure medical record systems</li>
+            <li>Telehealth infrastructure</li>
+            <li>Compliance and security solutions</li>
+          </ul>
+          <a href="#" class="btn-outline">Learn More</a>
+        </div>
+      </div>
+      
+      <div class="industry-card">
+        <div class="industry-image">
+          <img src="/assets/images/industry-financial.jpg" alt="Financial Services" />
+          <div class="industry-overlay">
+            <h3>Financial Services</h3>
+          </div>
+        </div>
+        <div class="industry-content">
+          <h3>Financial Services</h3>
+          <p>We provide financial institutions with secure, compliant technology solutions that enhance customer experiences and optimize operations.</p>
+          <h4>Key Solutions:</h4>
+          <ul>
+            <li>Digital banking platforms</li>
+            <li>Fraud detection systems</li>
+            <li>Regulatory compliance solutions</li>
+            <li>Financial data analytics</li>
+            <li>Secure payment processing</li>
+          </ul>
+          <a href="#" class="btn-outline">Learn More</a>
+        </div>
+      </div>
+      
+      <div class="industry-card">
+        <div class="industry-image">
+          <img src="/assets/images/industry-retail.jpg" alt="Retail &amp; E-commerce" />
+          <div class="industry-overlay">
+            <h3>Retail &amp; E-commerce</h3>
+          </div>
+        </div>
+        <div class="industry-content">
+          <h3>Retail &amp; E-commerce</h3>
+          <p>We help retailers create seamless omnichannel experiences that drive customer engagement and increase sales.</p>
+          <h4>Key Solutions:</h4>
+          <ul>
+            <li>E-commerce platforms</li>
+            <li>Customer experience optimization</li>
+            <li>Inventory management systems</li>
+            <li>Personalization engines</li>
+            <li>Supply chain optimization</li>
+          </ul>
+          <a href="#" class="btn-outline">Learn More</a>
+        </div>
+      </div>
+      
+      <div class="industry-card">
+        <div class="industry-image">
+          <img src="/assets/images/industry-manufacturing.jpg" alt="Manufacturing" />
+          <div class="industry-overlay">
+            <h3>Manufacturing</h3>
+          </div>
+        </div>
+        <div class="industry-content">
+          <h3>Manufacturing</h3>
+          <p>We enable manufacturers to optimize operations, improve quality control, and embrace Industry 4.0 technologies.</p>
+          <h4>Key Solutions:</h4>
+          <ul>
+            <li>IoT implementation</li>
+            <li>Predictive maintenance</li>
+            <li>Supply chain optimization</li>
+            <li>Quality control systems</li>
+            <li>Production analytics</li>
+          </ul>
+          <a href="#" class="btn-outline">Learn More</a>
+        </div>
+      </div>
+      
+      <div class="industry-card">
+        <div class="industry-image">
+          <img src="/assets/images/industry-education.jpg" alt="Education" />
+          <div class="industry-overlay">
+            <h3>Education</h3>
+          </div>
+        </div>
+        <div class="industry-content">
+          <h3>Education</h3>
+          <p>We support educational institutions with technology solutions that enhance learning experiences and streamline administrative processes.</p>
+          <h4>Key Solutions:</h4>
+          <ul>
+            <li>Learning management systems</li>
+            <li>Student information systems</li>
+            <li>Virtual classroom platforms</li>
+            <li>Educational analytics</li>
+            <li>Campus security solutions</li>
+          </ul>
+          <a href="#" class="btn-outline">Learn More</a>
+        </div>
+      </div>
+      
+      <div class="industry-card">
+        <div class="industry-image">
+          <img src="/assets/images/industry-government.jpg" alt="Government" />
+          <div class="industry-overlay">
+            <h3>Government</h3>
+          </div>
+        </div>
+        <div class="industry-content">
+          <h3>Government</h3>
+          <p>We deliver secure, compliant technology solutions that help government agencies improve service delivery and operational efficiency.</p>
+          <h4>Key Solutions:</h4>
+          <ul>
+            <li>Citizen engagement platforms</li>
+            <li>Secure data management</li>
+            <li>Compliance solutions</li>
+            <li>Process automation</li>
+            <li>Emergency response systems</li>
+          </ul>
+          <a href="#" class="btn-outline">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="case-studies">
+  <div class="container">
+    <div class="section-header">
+      <h2>Industry Success Stories</h2>
+      <p>See how we've helped organizations across industries achieve their goals</p>
+    </div>
+    <div class="case-studies-slider">
+      <div class="case-study">
+        <div class="case-study-content">
+          <span class="industry-tag">Healthcare</span>
+          <h3>Modernizing Patient Care with Cloud Technology</h3>
+          <p>Learn how we helped a regional healthcare provider migrate to a secure cloud infrastructure, improving patient data access while maintaining strict HIPAA compliance.</p>
+          <a href="#" class="btn-outline">Read Case Study</a>
+        </div>
+        <div class="case-study-image">
+          <img src="/assets/images/case-study-1.jpg" alt="Healthcare Case Study" />
+        </div>
+      </div>
+      
+      <div class="case-study">
+        <div class="case-study-content">
+          <span class="industry-tag">Financial Services</span>
+          <h3>AI-Powered Fraud Detection for Online Banking</h3>
+          <p>Discover how our custom AI solution helped a financial institution reduce fraud incidents by 87% while improving customer experience.</p>
+          <a href="#" class="btn-outline">Read Case Study</a>
+        </div>
+        <div class="case-study-image">
+          <img src="/assets/images/case-study-2.jpg" alt="Financial Services Case Study" />
+        </div>
+      </div>
+      
+      <div class="case-study">
+        <div class="case-study-content">
+          <span class="industry-tag">Manufacturing</span>
+          <h3>IoT Implementation for Predictive Maintenance</h3>
+          <p>See how our IoT solution helped a manufacturing company reduce equipment downtime by 35% and maintenance costs by 28%.</p>
+          <a href="#" class="btn-outline">Read Case Study</a>
+        </div>
+        <div class="case-study-image">
+          <img src="/assets/images/case-study-3.jpg" alt="Manufacturing Case Study" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Ready to Transform Your Industry?</h2>
+      <p>Let's discuss how our industry-specific expertise can help your organization thrive.</p>
+      <a href="/contact" class="btn-primary">Schedule a Consultation</a>
+    </div>
+  </div>
+</section>
+:ET

@@ -1,0 +1,188 @@
+---
+layout: default
+title: Insights
+permalink: /insights/
+---
+
+<section class="page-header">
+  <div class="container">
+    <div class="page-header-content">
+      <h1>Insights</h1>
+      <p>Expert perspectives on technology trends and business innovation</p>
+    </div>
+  </div>
+</section>
+
+<section class="insights-section">
+  <div class="container">
+    <div class="insights-grid">
+      <div class="insight-card">
+        <div class="insight-image">
+          <img src="/assets/images/insight-1.jpg" alt="AI in Business">
+        </div>
+        <div class="insight-content">
+          <div class="insight-meta">
+            <span class="insight-category">Artificial Intelligence</span>
+            <span class="insight-date">June 1, 2025</span>
+          </div>
+          <h3>How AI is Transforming Business Decision-Making</h3>
+          <p>Explore how artificial intelligence is revolutionizing the way businesses make strategic decisions and gain competitive advantages.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      
+      <div class="insight-card">
+        <div class="insight-image">
+          <img src="/assets/images/insight-2.jpg" alt="Cloud Migration">
+        </div>
+        <div class="insight-content">
+          <div class="insight-meta">
+            <span class="insight-category">Cloud Computing</span>
+            <span class="insight-date">May 15, 2025</span>
+          </div>
+          <h3>5 Critical Steps for a Successful Cloud Migration</h3>
+          <p>Learn the essential strategies and best practices to ensure your organization's transition to the cloud is smooth and successful.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      
+      <div class="insight-card">
+        <div class="insight-image">
+          <img src="/assets/images/insight-3.jpg" alt="Cybersecurity">
+        </div>
+        <div class="insight-content">
+          <div class="insight-meta">
+            <span class="insight-category">Cybersecurity</span>
+            <span class="insight-date">May 5, 2025</span>
+          </div>
+          <h3>The Evolving Landscape of Cybersecurity Threats</h3>
+          <p>Stay ahead of emerging cybersecurity challenges with our analysis of current threat landscapes and protection strategies.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      
+      <div class="insight-card">
+        <div class="insight-image">
+          <img src="/assets/images/insight-4.jpg" alt="Digital Transformation">
+        </div>
+        <div class="insight-content">
+          <div class="insight-meta">
+            <span class="insight-category">Digital Transformation</span>
+            <span class="insight-date">April 22, 2025</span>
+          </div>
+          <h3>Digital Transformation: Beyond the Buzzword</h3>
+          <p>Discover what meaningful digital transformation actually looks like and how to implement changes that drive real business value.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      
+      <div class="insight-card">
+        <div class="insight-image">
+          <img src="/assets/images/insight-5.jpg" alt="Data Analytics">
+        </div>
+        <div class="insight-content">
+          <div class="insight-meta">
+            <span class="insight-category">Data Analytics</span>
+            <span class="insight-date">April 10, 2025</span>
+          </div>
+          <h3>Turning Data into Actionable Business Intelligence</h3>
+          <p>Learn how to transform raw data into valuable insights that can guide strategic decision-making and drive business growth.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+      
+      <div class="insight-card">
+        <div class="insight-image">
+          <img src="/assets/images/insight-6.jpg" alt="Remote Work">
+        </div>
+        <div class="insight-content">
+          <div class="insight-meta">
+            <span class="insight-category">Future of Work</span>
+            <span class="insight-date">March 28, 2025</span>
+          </div>
+          <h3>Technology Solutions for the Hybrid Workplace</h3>
+          <p>Explore the tools and strategies that enable productive, secure, and collaborative hybrid work environments.</p>
+          <a href="#" class="read-more">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="newsletter">
+  <div class="container">
+    <div class="newsletter-content">
+      <div class="newsletter-info">
+        <h2>Stay Informed</h2>
+        <p>Subscribe to our newsletter to receive the latest insights, industry news, and technology updates directly to your inbox.</p>
+      </div>
+      <div class="newsletter-form">
+        <form action="#" method="POST">
+          <div class="form-group">
+            <input type="email" placeholder="Your email address" required>
+            <button type="submit" class="btn-primary">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="webinars-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Upcoming Webinars</h2>
+      <p>Join our experts for live discussions on technology trends and solutions</p>
+    </div>
+    <div class="webinars-list">
+      <div class="webinar-item">
+        <div class="webinar-date">
+          <span class="month">JUN</span>
+          <span class="day">15</span>
+        </div>
+        <div class="webinar-details">
+          <h3>Securing Your Cloud Infrastructure: Best Practices and Common Pitfalls</h3>
+          <p class="webinar-time"><i class="far fa-clock"></i> 2:00 PM - 3:30 PM EST</p>
+          <p class="webinar-description">Learn essential strategies for maintaining robust security in cloud environments while avoiding common mistakes that leave organizations vulnerable.</p>
+          <a href="#" class="btn-outline">Register Now</a>
+        </div>
+      </div>
+      
+      <div class="webinar-item">
+        <div class="webinar-date">
+          <span class="month">JUL</span>
+          <span class="day">08</span>
+        </div>
+        <div class="webinar-details">
+          <h3>Data-Driven Decision Making: From Analytics to Action</h3>
+          <p class="webinar-time"><i class="far fa-clock"></i> 1:00 PM - 2:00 PM EST</p>
+          <p class="webinar-description">Discover practical approaches to transform your organization's data into actionable insights that drive strategic business decisions.</p>
+          <a href="#" class="btn-outline">Register Now</a>
+        </div>
+      </div>
+      
+      <div class="webinar-item">
+        <div class="webinar-date">
+          <span class="month">JUL</span>
+          <span class="day">22</span>
+        </div>
+        <div class="webinar-details">
+          <h3>The Future of AI in Business: Opportunities and Implementation</h3>
+          <p class="webinar-time"><i class="far fa-clock"></i> 11:00 AM - 12:30 PM EST</p>
+          <p class="webinar-description">Explore how businesses across industries are leveraging AI technologies to innovate, optimize operations, and create competitive advantages.</p>
+          <a href="#" class="btn-outline">Register Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Need Expert Technology Guidance?</h2>
+      <p>Our consultants are ready to help you navigate complex technology decisions.</p>
+      <a href="/contact" class="btn-primary">Schedule a Consultation</a>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,32 @@
+// Font declarations
+@font-face {
+    font-family: 'Bowdown BC';
+    src: url('../fonts/BowdownBC.woff2') format('woff2'),
+         url('../fonts/BowdownBC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Ox BC';
+    src: url('../fonts/OxBC.woff2') format('woff2'),
+         url('../fonts/OxBC.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+// Font variables
+:root {
+    --font-primary: 'Bowdown BC', 'Arial', sans-serif;
+    --font-secondary: 'Ox BC', 'Helvetica', sans-serif;
+}
+
+// Color variables
+:root {
+    --color-background: #2c1c43;
+    --color-text: #47c5a7;
+    --color-text-light: #ffffff;
+    --color-accent: #47c5a7;
+}

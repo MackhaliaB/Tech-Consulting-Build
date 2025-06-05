@@ -1,0 +1,25 @@
+// Services Page Styles
+
+// Page Header
+.page-header {
+  background: linear-gradient(135deg, $secondary-color, darken($secondary-color, 10%));
+  padding: 120px 0 60px;
+  text-align: center;
+  margin-bottom: 60px;
+  
+  .page-header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    
+    h1 {
+      color: white;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    
+    p {
+      color: rgba(white, 0.9);
+      font-size: 1.25rem;
+    }
+  }
+}
