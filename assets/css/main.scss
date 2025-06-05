@@ -480,8 +480,9 @@ a {
   }
   
   .service-card {
-    // Enhance card backgrounds with very subtle gradient
-    background: linear-gradient(135deg, #ffffff, #f9fcfd);
+    // Darker background that complements the theme
+    background: linear-gradient(135deg, rgba($dark, 0.02), rgba($primary-dark, 0.05));
+    border: 1px solid rgba($primary, 0.1);
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     padding: 30px;
@@ -492,6 +493,8 @@ a {
       transform: translateY(-5px);
       box-shadow: 0 15px 30px rgba(0,0,0,0.12);
       border-top: 4px solid $primary;
+      background: linear-gradient(135deg, rgba($primary, 0.05), rgba($accent, 0.08));
+      border-color: rgba($primary, 0.2);
     }
     
     .service-icon {
@@ -707,8 +710,9 @@ a {
 
 // Service Cards
 .service-card {
-  // Enhance card backgrounds with very subtle gradient
-  background: linear-gradient(135deg, #ffffff, #f9fcfd);
+  // Darker background that complements the theme
+  background: linear-gradient(135deg, rgba($dark, 0.02), rgba($primary-dark, 0.05));
+  border: 1px solid rgba($primary, 0.1);
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   padding: 30px;
@@ -721,6 +725,8 @@ a {
     transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0,0,0,0.12);
     border-top: 4px solid $primary;
+    background: linear-gradient(135deg, rgba($primary, 0.05), rgba($accent, 0.08));
+    border-color: rgba($primary, 0.2);
   }
   
   .service-icon {
@@ -945,6 +951,103 @@ a {
   .services-list {
     .services-grid {
       grid-template-columns: 1fr;
+    }
+  }
+}
+
+// Project cards, post cards and other thumbnails
+.project-card, .post-card, .testimonial, .feature-box {
+  background: linear-gradient(135deg, rgba($dark, 0.02), rgba($primary-dark, 0.05));
+  border: 1px solid rgba($primary, 0.1);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  
+  &:hover {
+    background: linear-gradient(135deg, rgba($primary, 0.05), rgba($accent, 0.08));
+    border-color: rgba($primary, 0.2);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+}
+
+.project-image, .post-image {
+  position: relative;
+  overflow: hidden;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba($primary, 0.1), transparent);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  &:hover::after {
+    opacity: 1;
+  }
+  
+  img {
+    transition: transform 0.5s ease;
+  }
+  
+  &:hover img {
+    transform: scale(1.05);
+  }
+}
+
+.project-info, .post-info {
+  padding: 20px;
+}
+
+.testimonial {
+  padding: 25px;
+  
+  .testimonial-content {
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 20px;
+    
+    &::before {
+      content: '"';
+      position: absolute;
+      left: 0;
+      top: -10px;
+      font-size: 3rem;
+      color: $primary;
+      opacity: 0.3;
+      font-family: Georgia, serif;
+    }
+  }
+  
+  .testimonial-author {
+    display: flex;
+    align-items: center;
+    
+    .author-image {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-right: 15px;
+      border: 2px solid rgba($primary, 0.2);
+    }
+    
+    .author-info {
+      h4 {
+        margin-bottom: 0;
+        font-size: 1rem;
+      }
+      
+      p {
+        margin-bottom: 0;
+        font-size: 0.875rem;
+        color: $text-light;
+      }
     }
   }
 }
