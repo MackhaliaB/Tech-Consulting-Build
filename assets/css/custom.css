@@ -22,44 +22,49 @@
   font-weight: bold;
 }
 
-.service-card {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+/* Override the white background in services.scss */
+.services-grid .service-card {
   background-color: #1A1A1A !important;
   border: 1px solid #333333;
   transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.service-card:hover {
-  border-color: #00FFFF;
-  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+.services-grid .service-card:hover {
+  background-color: #1A1A1A !important;
+  border-color: #00FFFF !important;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2) !important;
+  transform: translateY(-5px);
 }
 
-.service-card .service-icon i {
+.services-grid .service-card .service-icon i {
   background-color: rgba(0, 255, 255, 0.1) !important;
   color: #00FFFF !important;
 }
 
-.service-card h3 {
+.services-grid .service-card h3 {
   color: #F5F5F5 !important;
   font-size: 1.5rem;
 }
 
-.service-card p {
+.services-grid .service-card p {
   color: #CCCCCC !important;
   font-size: 1rem;
 }
 
-.service-card .btn-outline {
+.services-grid .service-card .btn-outline {
   margin-top: auto;
   color: #00FFFF !important;
   border: 1px solid #00FFFF !important;
   background-color: transparent !important;
   transition: background-color 0.3s ease, color 0.3s ease;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  padding: 8px 16px;
 }
 
-.service-card .btn-outline:hover {
+.services-grid .service-card .btn-outline:hover {
   background-color: rgba(0, 255, 255, 0.1) !important;
   color: #00FFFF !important;
 }
@@ -321,4 +326,29 @@
 
 .btn-primary:hover::before {
   left: 0;
+}
+
+/* Page header styling */
+.page-header {
+  background-color: #1A1A1A !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #A100FF, #00FFFF);
+}
+
+.page-header-content h1 {
+  color: #F5F5F5 !important;
+}
+
+.page-header-content p {
+  color: #CCCCCC !important;
 }
