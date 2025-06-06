@@ -26,10 +26,40 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-color: #1A1A1A !important;
+  border: 1px solid #333333;
+}
+
+.service-card:hover {
+  border-color: #00FFFF;
+}
+
+.service-card .service-icon i {
+  background-color: rgba(161, 0, 255, 0.1) !important;
+  color: #A100FF !important;
+}
+
+.service-card h3 {
+  color: #F5F5F5 !important;
+  font-size: 1.5rem;
+}
+
+.service-card p {
+  color: #CCCCCC !important;
+  font-size: 1rem;
 }
 
 .service-card .btn-outline {
   margin-top: auto;
+  color: #00FFFF !important;
+  border: 1px solid #00FFFF !important;
+  background-color: transparent !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.service-card .btn-outline:hover {
+  background-color: rgba(0, 255, 255, 0.1) !important;
+  color: #00FFFF !important;
 }
 
 /* Navigation styles update */
@@ -65,4 +95,77 @@
 .site-header .main-nav ul li a.cta-button:hover {
   background-color: #7700BB;
   color: #FFFFFF;
+}
+
+/* Service process section styling */
+.service-process {
+  background-color: #1A1A1A !important;
+}
+
+.service-process .section-header h2 {
+  color: #F5F5F5 !important;
+}
+
+.service-process .section-header p {
+  color: #CCCCCC !important;
+}
+
+.process-step {
+  background-color: #222222 !important;
+  border: 1px solid #333333;
+}
+
+.process-step .step-number {
+  background-color: #A100FF !important;
+}
+
+.process-step .step-content h3 {
+  color: #F5F5F5 !important;
+}
+
+.process-step .step-content p {
+  color: #CCCCCC !important;
+}
+
+/* Technologies section styling */
+.technologies .section-header h2 {
+  color: #F5F5F5 !important;
+}
+
+.technologies .section-header p {
+  color: #CCCCCC !important;
+}
+
+.tech-category h3 {
+  color: #00FFFF !important;
+  border-bottom-color: #333333 !important;
+}
+
+.tech-category .tech-list li {
+  color: #F5F5F5 !important;
+  border-bottom-color: #333333 !important;
+}
+
+/* CTA section styling */
+.cta {
+  background-color: #1A1A1A !important;
+}
+
+.cta-content h2 {
+  color: #F5F5F5 !important;
+}
+
+.cta-content p {
+  color: #CCCCCC !important;
+}
+
+.btn-primary {
+  background-color: #A100FF !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #7700BB !important;
 }
