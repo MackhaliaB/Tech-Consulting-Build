@@ -23,48 +23,51 @@
 }
 
 /* Override the white background in services.scss */
-.services-grid .service-card {
+.service-card {
   background-color: #1A1A1A !important;
-  border: 1px solid #333333;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border: 1px solid #333333 !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
 }
 
-.services-grid .service-card:hover {
+.service-card:hover {
   background-color: #1A1A1A !important;
   border-color: #00FFFF !important;
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.2) !important;
-  transform: translateY(-5px);
+  transform: translateY(-5px) !important;
 }
 
-.services-grid .service-card .service-icon i {
+.service-card .service-icon i {
   background-color: rgba(0, 255, 255, 0.1) !important;
   color: #00FFFF !important;
 }
 
-.services-grid .service-card h3 {
+.service-card h3 {
   color: #F5F5F5 !important;
-  font-size: 1.5rem;
+  font-size: 1.5rem !important;
 }
 
-.services-grid .service-card p {
+.service-card p {
   color: #CCCCCC !important;
-  font-size: 1rem;
+  font-size: 1rem !important;
 }
 
-.services-grid .service-card .btn-outline {
-  margin-top: auto;
+.service-card .btn-outline {
+  margin-top: auto !important;
   color: #00FFFF !important;
   border: 1px solid #00FFFF !important;
   background-color: transparent !important;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  letter-spacing: 1px;
-  padding: 8px 16px;
+  transition: background-color 0.3s ease, color 0.3s ease !important;
+  text-transform: uppercase !important;
+  font-size: 0.9rem !important;
+  letter-spacing: 1px !important;
+  padding: 8px 16px !important;
 }
 
-.services-grid .service-card .btn-outline:hover {
+.service-card .btn-outline:hover {
   background-color: rgba(0, 255, 255, 0.1) !important;
   color: #00FFFF !important;
 }
