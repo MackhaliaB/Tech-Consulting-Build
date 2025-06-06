@@ -23,14 +23,14 @@ permalink: /solutions/
 
 <section class="solutions-grid">
   <div class="container">
-    <div class="solution-cards">
-      <div class="solution-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
-        <div class="solution-icon">
+    <div class="services-grid">
+      <div class="service-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
+        <div class="service-icon">
           <i class="fas fa-laptop-code" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
         <h3 style="color: #F5F5F5 !important;">Digital Agility & Business Modernization</h3>
         <p style="color: #CCCCCC !important;">Move from legacy constraints to a fluid, automated, and product-centric operating model.</p>
-        <ul class="solution-features">
+        <ul class="service-features">
           <li>Product-Centric Transformation</li>
           <li>AI-Powered Business Process Augmentation</li>
           <li>Legacy System Modernization & Decommissioning</li>
@@ -39,13 +39,13 @@ permalink: /solutions/
         <a href="#" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
       
-      <div class="solution-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
-        <div class="solution-icon">
+      <div class="service-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
+        <div class="service-icon">
           <i class="fas fa-cloud" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
         <h3 style="color: #F5F5F5 !important;">Cloud Value & Performance Optimization</h3>
         <p style="color: #CCCCCC !important;">Transform the cloud from an IT expense into a strategic asset for performance, cost-efficiency, and sustainability.</p>
-        <ul class="solution-features">
+        <ul class="service-features">
           <li>Cloud Value Optimization (FinOps & GreenOps)</li>
           <li>Multi-Cloud Strategy & Governance</li>
           <li>Cloud-Native Application & Platform Engineering</li>
@@ -54,13 +54,13 @@ permalink: /solutions/
         <a href="#" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
       
-      <div class="solution-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
-        <div class="solution-icon">
+      <div class="service-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
+        <div class="service-icon">
           <i class="fas fa-shield-alt" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
         <h3 style="color: #F5F5F5 !important;">Cyber Resilience & Trust</h3>
         <p style="color: #CCCCCC !important;">Go beyond basic defense to build a resilient organization that can withstand and rapidly recover from sophisticated cyber threats.</p>
-        <ul class="solution-features">
+        <ul class="service-features">
           <li>Zero Trust Security Architecture</li>
           <li>AI Attack Surface Management (AI-ASM)</li>
           <li>Managed Detection & Response (MDR) for the Enterprise</li>
@@ -69,13 +69,13 @@ permalink: /solutions/
         <a href="#" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
       
-      <div class="solution-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
-        <div class="solution-icon">
+      <div class="service-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
+        <div class="service-icon">
           <i class="fas fa-chart-bar" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
         <h3 style="color: #F5F5F5 !important;">Intelligent Data & Decisioning</h3>
         <p style="color: #CCCCCC !important;">Activate your data to create a culture of intelligence, moving from historical reporting to predictive and automated decision-making.</p>
-        <ul class="solution-features">
+        <ul class="service-features">
           <li>Data Mesh & Data Fabric Implementation</li>
           <li>Predictive Analytics & AI-Driven Forecasting</li>
           <li>Data Observability & Governance</li>
@@ -133,7 +133,7 @@ permalink: /solutions/
   </div>
 </section>
 
-<section class="testimonials">
+<section class="technologies">
   <div class="container">
     <div class="section-header">
       <h2>What Our Clients Say</h2>
@@ -182,7 +182,7 @@ permalink: /solutions/
   </div>
 </section>
 
-<section class="partners">
+<section class="technologies">
   <div class="container">
     <div class="section-header">
       <h2>Our Technology Partners</h2>
