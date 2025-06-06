@@ -7,8 +7,8 @@ permalink: /solutions/
 <section class="page-header">
   <div class="container">
     <div class="page-header-content">
-      <h1>Our Solutions</h1>
-      <p>Comprehensive technology solutions designed for your business challenges</p>
+      <h1>Capabilities We Build</h1>
+      <p>Durable business capabilities that drive powerful, measurable outcomes</p>
     </div>
   </div>
 </section>
@@ -16,7 +16,7 @@ permalink: /solutions/
 <section class="solutions-intro">
   <div class="container">
     <div class="intro-content">
-      <p>At Graywave Solutions, we offer a comprehensive suite of technology solutions designed to address specific business challenges while driving innovation and growth. Our solutions combine industry best practices, cutting-edge technologies, and our team's deep expertise to deliver measurable results.</p>
+      <p>At Gray Wave Solutions, we don't just implement technology; we build durable business capabilities. We partner with you to co-create solutions that drive powerful, measurable outcomes across your entire value chain.</p>
     </div>
   </div>
 </section>
@@ -24,100 +24,64 @@ permalink: /solutions/
 <section class="solutions-grid">
   <div class="container">
     <div class="solution-cards">
-      <div class="solution-card">
+      <div class="solution-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
         <div class="solution-icon">
-          <i class="fas fa-laptop-code"></i>
+          <i class="fas fa-laptop-code" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
-        <h3>Digital Transformation</h3>
-        <p>Comprehensive strategies and implementations to modernize your business processes, customer experiences, and operational models.</p>
+        <h3 style="color: #F5F5F5 !important;">Digital Agility & Business Modernization</h3>
+        <p style="color: #CCCCCC !important;">Move from legacy constraints to a fluid, automated, and product-centric operating model.</p>
         <ul class="solution-features">
-          <li>Business process optimization</li>
-          <li>Legacy system modernization</li>
-          <li>Digital customer experience</li>
-          <li>Workflow automation</li>
-          <li>Change management</li>
+          <li>Product-Centric Transformation</li>
+          <li>AI-Powered Business Process Augmentation</li>
+          <li>Legacy System Modernization & Decommissioning</li>
+          <li>Composable Enterprise Architecture</li>
         </ul>
-        <a href="#" class="btn-outline">Learn More</a>
+        <a href="#" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
       
-      <div class="solution-card">
+      <div class="solution-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
         <div class="solution-icon">
-          <i class="fas fa-cloud"></i>
+          <i class="fas fa-cloud" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
-        <h3>Cloud Migration & Optimization</h3>
-        <p>Secure, efficient migration to cloud platforms with ongoing optimization to maximize performance and cost-efficiency.</p>
+        <h3 style="color: #F5F5F5 !important;">Cloud Value & Performance Optimization</h3>
+        <p style="color: #CCCCCC !important;">Transform the cloud from an IT expense into a strategic asset for performance, cost-efficiency, and sustainability.</p>
         <ul class="solution-features">
-          <li>Cloud readiness assessment</li>
-          <li>Migration planning and execution</li>
-          <li>Multi-cloud management</li>
-          <li>Cost optimization</li>
-          <li>Cloud security implementation</li>
+          <li>Cloud Value Optimization (FinOps & GreenOps)</li>
+          <li>Multi-Cloud Strategy & Governance</li>
+          <li>Cloud-Native Application & Platform Engineering</li>
+          <li>Data Center Exit & Full-Stack Migration</li>
         </ul>
-        <a href="#" class="btn-outline">Learn More</a>
+        <a href="#" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
       
-      <div class="solution-card">
+      <div class="solution-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
         <div class="solution-icon">
-          <i class="fas fa-shield-alt"></i>
+          <i class="fas fa-shield-alt" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
-        <h3>Cybersecurity & Compliance</h3>
-        <p>Comprehensive security solutions to protect your data, systems, and reputation while ensuring regulatory compliance.</p>
+        <h3 style="color: #F5F5F5 !important;">Cyber Resilience & Trust</h3>
+        <p style="color: #CCCCCC !important;">Go beyond basic defense to build a resilient organization that can withstand and rapidly recover from sophisticated cyber threats.</p>
         <ul class="solution-features">
-          <li>Security assessments</li>
-          <li>Threat detection and response</li>
-          <li>Compliance management</li>
-          <li>Identity and access management</li>
-          <li>Security awareness training</li>
+          <li>Zero Trust Security Architecture</li>
+          <li>AI Attack Surface Management (AI-ASM)</li>
+          <li>Managed Detection & Response (MDR) for the Enterprise</li>
+          <li>Integrated Risk Management & Compliance Automation</li>
         </ul>
-        <a href="#" class="btn-outline">Learn More</a>
+        <a href="#" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
       
-      <div class="solution-card">
+      <div class="solution-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
         <div class="solution-icon">
-          <i class="fas fa-chart-bar"></i>
+          <i class="fas fa-chart-bar" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
-        <h3>Data Analytics & Business Intelligence</h3>
-        <p>Transform your data into actionable insights with advanced analytics solutions that drive informed decision-making.</p>
+        <h3 style="color: #F5F5F5 !important;">Intelligent Data & Decisioning</h3>
+        <p style="color: #CCCCCC !important;">Activate your data to create a culture of intelligence, moving from historical reporting to predictive and automated decision-making.</p>
         <ul class="solution-features">
-          <li>Data strategy development</li>
-          <li>Analytics platform implementation</li>
-          <li>Predictive analytics</li>
-          <li>Data visualization</li>
-          <li>Business intelligence dashboards</li>
+          <li>Data Mesh & Data Fabric Implementation</li>
+          <li>Predictive Analytics & AI-Driven Forecasting</li>
+          <li>Data Observability & Governance</li>
+          <li>Generative AI for Business Intelligence</li>
         </ul>
-        <a href="#" class="btn-outline">Learn More</a>
-      </div>
-      
-      <div class="solution-card">
-        <div class="solution-icon">
-          <i class="fas fa-robot"></i>
-        </div>
-        <h3>AI & Machine Learning</h3>
-        <p>Leverage the power of artificial intelligence to automate processes, gain insights, and create new business opportunities.</p>
-        <ul class="solution-features">
-          <li>AI strategy and roadmap</li>
-          <li>Machine learning models</li>
-          <li>Natural language processing</li>
-          <li>Computer vision solutions</li>
-          <li>AI-powered automation</li>
-        </ul>
-        <a href="#" class="btn-outline">Learn More</a>
-      </div>
-      
-      <div class="solution-card">
-        <div class="solution-icon">
-          <i class="fas fa-mobile-alt"></i>
-        </div>
-        <h3>Custom Application Development</h3>
-        <p>Tailored software solutions designed to address your unique business challenges and opportunities.</p>
-        <ul class="solution-features">
-          <li>Web applications</li>
-          <li>Mobile applications</li>
-          <li>Enterprise software</li>
-          <li>API development and integration</li>
-          <li>Legacy system modernization</li>
-        </ul>
-        <a href="#" class="btn-outline">Learn More</a>
+        <a href="#" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
     </div>
   </div>
@@ -126,43 +90,43 @@ permalink: /solutions/
 <section class="solution-approach">
   <div class="container">
     <div class="section-header">
-      <h2>Our Solution Approach</h2>
-      <p>How we deliver effective, tailored solutions for your business</p>
+      <h2>Our Partnership Blueprint</h2>
+      <p>We succeed when you succeed. Our approach is a collaborative blueprint designed to de-risk innovation and accelerate value creation. It's a continuous cycle, not a linear path.</p>
     </div>
     <div class="approach-steps">
       <div class="approach-step">
         <div class="step-number">1</div>
         <div class="step-content">
-          <h3>Understand</h3>
-          <p>We begin by deeply understanding your business goals, challenges, and requirements through comprehensive discovery sessions.</p>
+          <h3>Align & Envision</h3>
+          <p>We start by aligning with your executive vision. Through strategic workshops and value stream mapping, we dive deep into your business objectives and challenges. Together, we define "what's possible" and build a business case for change, focusing on clear, measurable outcomes.</p>
         </div>
       </div>
       <div class="approach-step">
         <div class="step-number">2</div>
         <div class="step-content">
-          <h3>Analyze</h3>
-          <p>Our experts analyze your current systems, processes, and technology landscape to identify opportunities and constraints.</p>
+          <h3>Co-Create & Prototype</h3>
+          <p>This is where ideas take shape. Working as a single, integrated team with your experts, we design and build functional prototypes. This agile, hands-on approach allows us to test assumptions, gather real-world feedback, and validate the solution's design and user experience before significant investment.</p>
         </div>
       </div>
       <div class="approach-step">
         <div class="step-number">3</div>
         <div class="step-content">
-          <h3>Design</h3>
-          <p>We design a comprehensive solution that addresses your specific needs, leveraging best practices and innovative technologies.</p>
+          <h3>Build with Intelligence</h3>
+          <p>Leveraging our DevSecOps culture, we build your solution in rapid, transparent sprints. Security and quality are embedded from the start. We utilize AI-assisted development tools and automation to increase velocity and ensure the final product is robust, scalable, and secure by design.</p>
         </div>
       </div>
       <div class="approach-step">
         <div class="step-number">4</div>
         <div class="step-content">
-          <h3>Implement</h3>
-          <p>Our team executes the solution with precision, following agile methodologies to ensure quality and adaptability.</p>
+          <h3>Launch & Empower</h3>
+          <p>A successful launch goes beyond technical deployment. We focus on empowering your teams through comprehensive change management, training, and documentation. We ensure your people are equipped and excited to adopt the new solution and make it their own.</p>
         </div>
       </div>
       <div class="approach-step">
         <div class="step-number">5</div>
         <div class="step-content">
-          <h3>Optimize</h3>
-          <p>We continuously monitor and refine the solution to maximize performance, security, and business value.</p>
+          <h3>Evolve & Scale</h3>
+          <p>The world doesn't stand still, and neither should your solution. Post-launch, we partner with you to monitor performance, analyze data, and identify opportunities for continuous improvement. This ongoing cycle of optimization ensures your technology investment delivers compounding value over time.</p>
         </div>
       </div>
     </div>
@@ -178,7 +142,7 @@ permalink: /solutions/
     <div class="testimonials-slider">
       <div class="testimonial">
         <div class="testimonial-content">
-          <p>"Graywave Solutions transformed our outdated systems into a modern, cloud-based infrastructure that has significantly improved our operational efficiency and customer experience."</p>
+          <p>"Gray Wave Solutions transformed our outdated systems into a modern, cloud-based infrastructure that has significantly improved our operational efficiency and customer experience."</p>
           <div class="testimonial-author">
             <img src="/assets/images/testimonial-1.jpg" alt="Testimonial Author">
             <div class="author-info">
@@ -191,7 +155,7 @@ permalink: /solutions/
       
       <div class="testimonial">
         <div class="testimonial-content">
-          <p>"The cybersecurity solution implemented by Graywave has strengthened our security posture and given us confidence in our ability to protect sensitive customer data."</p>
+          <p>"The cybersecurity solution implemented by Gray Wave has strengthened our security posture and given us confidence in our ability to protect sensitive customer data."</p>
           <div class="testimonial-author">
             <img src="/assets/images/testimonial-2.jpg" alt="Testimonial Author">
             <div class="author-info">
@@ -204,7 +168,7 @@ permalink: /solutions/
       
       <div class="testimonial">
         <div class="testimonial-content">
-          <p>"The custom application developed by Graywave Solutions has streamlined our manufacturing processes and provided real-time visibility into our operations, resulting in significant cost savings."</p>
+          <p>"The custom application developed by Gray Wave Solutions has streamlined our manufacturing processes and provided real-time visibility into our operations, resulting in significant cost savings."</p>
           <div class="testimonial-author">
             <img src="/assets/images/testimonial-3.jpg" alt="Testimonial Author">
             <div class="author-info">
@@ -239,8 +203,8 @@ permalink: /solutions/
 <section class="cta">
   <div class="container">
     <div class="cta-content">
-      <h2>Ready to Solve Your Business Challenges?</h2>
-      <p>Let's discuss how our solutions can help your organization thrive in today's digital landscape.</p>
+      <h2>Ready to Build Lasting Business Capabilities?</h2>
+      <p>Let's discuss how our partnership can transform your organization and drive measurable outcomes.</p>
       <a href="/contact" class="btn-primary">Schedule a Consultation</a>
     </div>
   </div>
