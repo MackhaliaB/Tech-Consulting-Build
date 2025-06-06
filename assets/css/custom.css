@@ -108,6 +108,8 @@
 
 .service-process .section-header p {
   color: #CCCCCC !important;
+  max-width: 900px !important;
+  margin: 0 auto 30px !important;
 }
 
 .process-step {
@@ -121,10 +123,14 @@
 
 .process-step .step-content h3 {
   color: #F5F5F5 !important;
+  font-size: 1.3rem !important;
+  margin-bottom: 12px !important;
 }
 
 .process-step .step-content p {
   color: #CCCCCC !important;
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
 }
 
 /* Technologies section styling */
@@ -134,6 +140,14 @@
 
 .technologies .section-header p {
   color: #CCCCCC !important;
+  max-width: 900px !important;
+  margin: 0 auto 30px !important;
+}
+
+.tech-categories {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)) !important;
+  gap: 30px !important;
 }
 
 .tech-category h3 {

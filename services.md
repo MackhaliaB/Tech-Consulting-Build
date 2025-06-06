@@ -106,50 +106,50 @@ permalink: /services/
 <section class="service-process">
   <div class="container">
     <div class="section-header">
-      <h2>Our Process</h2>
-      <p>How we deliver exceptional results for our clients</p>
+      <h2>Our Approach: A Partnership in Innovation</h2>
+      <p>We believe in a dynamic and collaborative partnership to deliver exceptional results. Our process is a continuous cycle of strategy, creation, and evolution, ensuring your solution not only launches successfully but also delivers long-term value.</p>
     </div>
     <div class="process-steps">
       <div class="process-step">
         <div class="step-number">1</div>
         <div class="step-content">
-          <h3>Discovery</h3>
-          <p>We begin by understanding your business goals, challenges, and requirements through in-depth consultations.</p>
+          <h3>Discovery & Strategic Alignment</h3>
+          <p>We begin by immersing ourselves in your world. Through collaborative workshops, we go beyond requirements to understand your core business goals, user needs, and market challenges. We then align on key performance indicators (KPIs) and a strategic roadmap that will guide our partnership.</p>
         </div>
       </div>
       <div class="process-step">
         <div class="step-number">2</div>
         <div class="step-content">
-          <h3>Strategy</h3>
-          <p>We develop a comprehensive strategy and roadmap tailored to your specific needs and objectives.</p>
+          <h3>Agile Design & Prototyping</h3>
+          <p>Our team translates strategy into an intuitive user experience. We create interactive prototypes and wireframes, gathering your feedback in rapid, iterative cycles. This agile approach ensures the final design is user-validated and perfectly aligned with your brand before major development begins.</p>
         </div>
       </div>
       <div class="process-step">
         <div class="step-number">3</div>
         <div class="step-content">
-          <h3>Design</h3>
-          <p>Our team creates detailed designs and prototypes that align with your brand and user expectations.</p>
+          <h3>Secure Development & Continuous Integration</h3>
+          <p>Here, we build your solution. Our development is grounded in a DevSecOps methodology, meaning security is not an afterthought—it's integrated into every stage. We build in sprints, providing you with regular demos and incorporating your feedback continuously, not just at the end.</p>
         </div>
       </div>
       <div class="process-step">
         <div class="step-number">4</div>
         <div class="step-content">
-          <h3>Development</h3>
-          <p>We build your solution using the latest technologies and best practices to ensure quality and performance.</p>
+          <h3>Intelligent Quality & Performance Engineering</h3>
+          <p>We leverage AI-powered testing and rigorous quality assurance protocols to ensure your solution is robust, scalable, and performs flawlessly. Our testing covers functionality, performance, security vulnerabilities, and user experience across all relevant platforms.</p>
         </div>
       </div>
       <div class="process-step">
         <div class="step-number">5</div>
         <div class="step-content">
-          <h3>Testing</h3>
-          <p>We conduct thorough testing to ensure your solution works flawlessly across all platforms and scenarios.</p>
+          <h3>Deployment & Cloud Orchestration</h3>
+          <p>A seamless launch is critical. We handle the full deployment process, whether it's on-premises or orchestrated across multi-cloud environments like AWS, Azure, or GCP. We utilize Infrastructure as Code (IaC) to ensure a repeatable, scalable, and secure launch process.</p>
         </div>
       </div>
       <div class="process-step">
         <div class="step-number">6</div>
         <div class="step-content">
-          <h3>Launch & Support</h3>
-          <p>We handle the deployment process and provide ongoing support to ensure long-term success.</p>
+          <h3>Evolution & Growth (AIOps)</h3>
+          <p>Our partnership doesn't end at launch. We provide ongoing support and leverage AIOps (AI for IT Operations) to proactively monitor performance, predict potential issues, and gather insights for future enhancements. We work with you to analyze data, plan new features, and ensure your solution continuously evolves to meet market demands.</p>
         </div>
       </div>
     </div>
@@ -159,48 +159,68 @@ permalink: /services/
 <section class="technologies">
   <div class="container">
     <div class="section-header">
-      <h2>Technologies We Use</h2>
-      <p>We leverage the latest technologies to deliver cutting-edge solutions</p>
+      <h2>Our Technology Ecosystem</h2>
+      <p>We are polyglot engineers and strategists who leverage a curated ecosystem of modern technologies to build powerful, secure, and scalable solutions.</p>
     </div>
     <div class="tech-categories">
       <div class="tech-category">
         <h3>Frontend</h3>
         <ul class="tech-list">
-          <li>React</li>
-          <li>Angular</li>
-          <li>Vue.js</li>
-          <li>HTML5/CSS3</li>
+          <li>React, Angular, Vue.js</li>
           <li>JavaScript/TypeScript</li>
+          <li>HTML5/CSS3</li>
+          <li>WebAssembly (Wasm)</li>
+          <li>Progressive Web Apps (PWA)</li>
         </ul>
       </div>
       <div class="tech-category">
         <h3>Backend</h3>
         <ul class="tech-list">
-          <li>Node.js</li>
-          <li>Python</li>
-          <li>PHP</li>
-          <li>Java</li>
-          <li>.NET</li>
+          <li>Node.js, Python, Java, .NET</li>
+          <li>Go (Golang)</li>
+          <li>Rust</li>
+          <li>GraphQL & RESTful APIs</li>
+          <li>Microservices Architecture</li>
         </ul>
       </div>
       <div class="tech-category">
         <h3>Mobile</h3>
         <ul class="tech-list">
-          <li>React Native</li>
-          <li>Flutter</li>
-          <li>Swift</li>
-          <li>Kotlin</li>
-          <li>Ionic</li>
+          <li>React Native, Flutter</li>
+          <li>Native iOS (Swift)</li>
+          <li>Native Android (Kotlin)</li>
+          <li>Cross-platform Solutions</li>
+          <li>Mobile DevSecOps</li>
         </ul>
       </div>
       <div class="tech-category">
-        <h3>Cloud & DevOps</h3>
+        <h3>Cloud, DevOps & DevSecOps</h3>
         <ul class="tech-list">
-          <li>AWS</li>
-          <li>Azure</li>
-          <li>Google Cloud</li>
-          <li>Docker</li>
-          <li>Kubernetes</li>
+          <li>AWS, Azure, Google Cloud</li>
+          <li>Docker, Kubernetes (K8s)</li>
+          <li>Infrastructure as Code (IaC)</li>
+          <li>CI/CD & Automation</li>
+          <li>Security (SAST/DAST)</li>
+        </ul>
+      </div>
+      <div class="tech-category">
+        <h3>Data & Analytics</h3>
+        <ul class="tech-list">
+          <li>PostgreSQL, MongoDB, MySQL</li>
+          <li>Data Pipelines & ETL</li>
+          <li>Apache Spark, Airflow</li>
+          <li>BI & Visualization Tools</li>
+          <li>Real-time Analytics</li>
+        </ul>
+      </div>
+      <div class="tech-category">
+        <h3>AI & Machine Learning</h3>
+        <ul class="tech-list">
+          <li>TensorFlow, PyTorch</li>
+          <li>MLOps Platforms</li>
+          <li>Natural Language Processing</li>
+          <li>Computer Vision</li>
+          <li>Generative AI Solutions</li>
         </ul>
       </div>
     </div>
