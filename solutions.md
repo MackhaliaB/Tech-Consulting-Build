@@ -4,55 +4,6 @@ title: Solutions
 permalink: /solutions/
 ---
 
-<style>
-.process-step {
-  background-color: #222222 !important;
-  border: 1px solid #333333 !important;
-  transition: all 0.3s ease;
-  position: relative;
-  z-index: 1;
-  padding-top: 0 !important;
-  overflow: hidden;
-  margin-bottom: 30px;
-  border-radius: 8px;
-}
-
-.process-step:hover {
-  border-color: #00FFFF !important;
-  transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0, 255, 255, 0.1);
-}
-
-.process-step .step-number {
-  background: linear-gradient(135deg, #A100FF, #00FFFF) !important;
-  color: #FFFFFF !important;
-  font-weight: bold;
-  width: 100% !important;
-  height: 40px !important;
-  border-radius: 0 !important;
-  margin-bottom: 20px !important;
-  display: flex !important;
-  align-items: center !important;
-  justify-content: center !important;
-}
-
-.process-step .step-content {
-  padding: 0 20px 20px !important;
-}
-
-.process-step .step-content h3 {
-  color: #00FFFF !important;
-  font-size: 1.3rem !important;
-  margin-bottom: 12px !important;
-}
-
-.process-step .step-content p {
-  color: #CCCCCC !important;
-  font-size: 0.95rem !important;
-  line-height: 1.6 !important;
-}
-</style>
-
 <section class="page-header">
   <div class="container">
     <div class="page-header-content">
@@ -136,48 +87,46 @@ permalink: /solutions/
   </div>
 </section>
 
-<section class="service-process" style="background-color: #1A1A1A !important; position: relative; overflow: hidden; padding: 80px 0;">
-  <div style="content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: linear-gradient(90deg, #A100FF, #00FFFF);"></div>
+<section class="service-process">
   <div class="container">
-    <div class="section-header" style="text-align: center; margin-bottom: 50px;">
-      <h2 style="color: #F5F5F5 !important; position: relative; display: inline-block; font-size: 2.25rem; margin-bottom: 15px;">Our Partnership Blueprint</h2>
-      <div style="content: ''; position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 60px; height: 3px; background-color: #00FFFF;"></div>
-      <p style="color: #CCCCCC !important; max-width: 900px !important; margin: 30px auto 40px !important; font-size: 1.125rem;">We succeed when you succeed. Our approach is a collaborative blueprint designed to de-risk innovation and accelerate value creation. It's a continuous cycle, not a linear path.</p>
+    <div class="section-header">
+      <h2>Our Partnership Blueprint</h2>
+      <p>We succeed when you succeed. Our approach is a collaborative blueprint designed to de-risk innovation and accelerate value creation. It's a continuous cycle, not a linear path.</p>
     </div>
     <div class="process-steps">
-      <div class="process-step">
-        <div class="step-number">1</div>
-        <div class="step-content">
-          <h3>Align & Envision</h3>
-          <p>We start by aligning with your executive vision. Through strategic workshops and value stream mapping, we dive deep into your business objectives and challenges. Together, we define "what's possible" and build a business case for change, focusing on clear, measurable outcomes.</p>
+      <div class="process-step" style="background-color: #222222; border: 1px solid #333333; border-radius: 8px; overflow: hidden; padding-top: 0; margin-bottom: 30px;">
+        <div class="step-number" style="background: linear-gradient(135deg, #A100FF, #00FFFF); color: white; width: 100%; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 0; margin-bottom: 20px;">1</div>
+        <div class="step-content" style="padding: 0 20px 20px;">
+          <h3 style="color: #00FFFF; font-size: 1.3rem; margin-bottom: 12px;">Align & Envision</h3>
+          <p style="color: #CCCCCC; font-size: 0.95rem; line-height: 1.6;">We start by aligning with your executive vision. Through strategic workshops and value stream mapping, we dive deep into your business objectives and challenges. Together, we define "what's possible" and build a business case for change, focusing on clear, measurable outcomes.</p>
         </div>
       </div>
-      <div class="process-step">
-        <div class="step-number">2</div>
-        <div class="step-content">
-          <h3>Co-Create & Prototype</h3>
-          <p>This is where ideas take shape. Working as a single, integrated team with your experts, we design and build functional prototypes. This agile, hands-on approach allows us to test assumptions, gather real-world feedback, and validate the solution's design and user experience before significant investment.</p>
+      <div class="process-step" style="background-color: #222222; border: 1px solid #333333; border-radius: 8px; overflow: hidden; padding-top: 0; margin-bottom: 30px;">
+        <div class="step-number" style="background: linear-gradient(135deg, #A100FF, #00FFFF); color: white; width: 100%; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 0; margin-bottom: 20px;">2</div>
+        <div class="step-content" style="padding: 0 20px 20px;">
+          <h3 style="color: #00FFFF; font-size: 1.3rem; margin-bottom: 12px;">Co-Create & Prototype</h3>
+          <p style="color: #CCCCCC; font-size: 0.95rem; line-height: 1.6;">This is where ideas take shape. Working as a single, integrated team with your experts, we design and build functional prototypes. This agile, hands-on approach allows us to test assumptions, gather real-world feedback, and validate the solution's design and user experience before significant investment.</p>
         </div>
       </div>
-      <div class="process-step">
-        <div class="step-number">3</div>
-        <div class="step-content">
-          <h3>Build with Intelligence</h3>
-          <p>Leveraging our DevSecOps culture, we build your solution in rapid, transparent sprints. Security and quality are embedded from the start. We utilize AI-assisted development tools and automation to increase velocity and ensure the final product is robust, scalable, and secure by design.</p>
+      <div class="process-step" style="background-color: #222222; border: 1px solid #333333; border-radius: 8px; overflow: hidden; padding-top: 0; margin-bottom: 30px;">
+        <div class="step-number" style="background: linear-gradient(135deg, #A100FF, #00FFFF); color: white; width: 100%; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 0; margin-bottom: 20px;">3</div>
+        <div class="step-content" style="padding: 0 20px 20px;">
+          <h3 style="color: #00FFFF; font-size: 1.3rem; margin-bottom: 12px;">Build with Intelligence</h3>
+          <p style="color: #CCCCCC; font-size: 0.95rem; line-height: 1.6;">Leveraging our DevSecOps culture, we build your solution in rapid, transparent sprints. Security and quality are embedded from the start. We utilize AI-assisted development tools and automation to increase velocity and ensure the final product is robust, scalable, and secure by design.</p>
         </div>
       </div>
-      <div class="process-step">
-        <div class="step-number">4</div>
-        <div class="step-content">
-          <h3>Launch & Empower</h3>
-          <p>A successful launch goes beyond technical deployment. We focus on empowering your teams through comprehensive change management, training, and documentation. We ensure your people are equipped and excited to adopt the new solution and make it their own.</p>
+      <div class="process-step" style="background-color: #222222; border: 1px solid #333333; border-radius: 8px; overflow: hidden; padding-top: 0; margin-bottom: 30px;">
+        <div class="step-number" style="background: linear-gradient(135deg, #A100FF, #00FFFF); color: white; width: 100%; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 0; margin-bottom: 20px;">4</div>
+        <div class="step-content" style="padding: 0 20px 20px;">
+          <h3 style="color: #00FFFF; font-size: 1.3rem; margin-bottom: 12px;">Launch & Empower</h3>
+          <p style="color: #CCCCCC; font-size: 0.95rem; line-height: 1.6;">A successful launch goes beyond technical deployment. We focus on empowering your teams through comprehensive change management, training, and documentation. We ensure your people are equipped and excited to adopt the new solution and make it their own.</p>
         </div>
       </div>
-      <div class="process-step">
-        <div class="step-number">5</div>
-        <div class="step-content">
-          <h3>Evolve & Scale</h3>
-          <p>The world doesn't stand still, and neither should your solution. Post-launch, we partner with you to monitor performance, analyze data, and identify opportunities for continuous improvement. This ongoing cycle of optimization ensures your technology investment delivers compounding value over time.</p>
+      <div class="process-step" style="background-color: #222222; border: 1px solid #333333; border-radius: 8px; overflow: hidden; padding-top: 0; margin-bottom: 30px;">
+        <div class="step-number" style="background: linear-gradient(135deg, #A100FF, #00FFFF); color: white; width: 100%; height: 40px; display: flex; align-items: center; justify-content: center; border-radius: 0; margin-bottom: 20px;">5</div>
+        <div class="step-content" style="padding: 0 20px 20px;">
+          <h3 style="color: #00FFFF; font-size: 1.3rem; margin-bottom: 12px;">Evolve & Scale</h3>
+          <p style="color: #CCCCCC; font-size: 0.95rem; line-height: 1.6;">The world doesn't stand still, and neither should your solution. Post-launch, we partner with you to monitor performance, analyze data, and identify opportunities for continuous improvement. This ongoing cycle of optimization ensures your technology investment delivers compounding value over time.</p>
         </div>
       </div>
     </div>
