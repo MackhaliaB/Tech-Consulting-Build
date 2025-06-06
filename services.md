@@ -21,7 +21,12 @@ permalink: /services/
           <i class="fas fa-code"></i>
         </div>
         <h3>Custom Software Development</h3>
-        <p>Build tailored software solutions that address your unique business challenges and drive innovation.</p>
+        <p>Build intelligent, secure software solutions that address your unique business challenges and drive innovation.</p>
+        <ul class="service-features">
+          <li>AI-Integrated Application Development</li>
+          <li>Secure Software Supply Chain (SSCM) Services</li>
+          <li>Low-Code/No-Code Platform Customization</li>
+        </ul>
         <a href="/services/software-development" class="btn-outline">Learn More</a>
       </div>
       
@@ -30,7 +35,12 @@ permalink: /services/
           <i class="fas fa-cloud"></i>
         </div>
         <h3>Cloud Transformation</h3>
-        <p>Modernize your infrastructure with secure, scalable cloud solutions that reduce costs and improve agility.</p>
+        <p>Optimize your cloud environment with advanced security, cost management, and serverless architectures.</p>
+        <ul class="service-features">
+          <li>FinOps (Cloud Financial Operations) Consulting</li>
+          <li>Cloud-Native Security & CNAPP Implementation</li>
+          <li>Serverless and Edge Computing Architecture</li>
+        </ul>
         <a href="/services/cloud-transformation" class="btn-outline">Learn More</a>
       </div>
       
@@ -39,7 +49,12 @@ permalink: /services/
           <i class="fas fa-shield-alt"></i>
         </div>
         <h3>Cybersecurity</h3>
-        <p>Protect your business with comprehensive security strategies, risk assessments, and compliance solutions.</p>
+        <p>Protect your business with proactive security strategies, threat hunting, and comprehensive resilience planning.</p>
+        <ul class="service-features">
+          <li>AI Attack Surface Management (AI-ASM)</li>
+          <li>Proactive Threat Hunting & Managed Detection and Response</li>
+          <li>Cyber Resilience & Incident Response Planning</li>
+        </ul>
         <a href="/services/cybersecurity" class="btn-outline">Learn More</a>
       </div>
       
@@ -48,7 +63,12 @@ permalink: /services/
           <i class="fas fa-chart-line"></i>
         </div>
         <h3>Data Analytics</h3>
-        <p>Transform your data into actionable insights with advanced analytics, BI solutions, and data strategy.</p>
+        <p>Transform your data into actionable insights with real-time analytics, predictive modeling, and robust governance.</p>
+        <ul class="service-features">
+          <li>Real-Time Data Analytics & Streaming Platforms</li>
+          <li>Predictive and Prescriptive Analytics</li>
+          <li>Data Governance and Master Data Management (MDM)</li>
+        </ul>
         <a href="/services/data-analytics" class="btn-outline">Learn More</a>
       </div>
       
@@ -57,7 +77,12 @@ permalink: /services/
           <i class="fas fa-robot"></i>
         </div>
         <h3>AI & Machine Learning</h3>
-        <p>Leverage cutting-edge AI technologies to automate processes, enhance decision-making, and drive innovation.</p>
+        <p>Leverage cutting-edge AI technologies to transform business processes and create intelligent automation solutions.</p>
+        <ul class="service-features">
+          <li>Generative AI Strategy and Integration</li>
+          <li>AI-Driven Process Automation (Hyperautomation)</li>
+          <li>MLOps (Machine Learning Operations) Services</li>
+        </ul>
         <a href="/services/ai-machine-learning" class="btn-outline">Learn More</a>
       </div>
       
@@ -66,7 +91,12 @@ permalink: /services/
           <i class="fas fa-users-cog"></i>
         </div>
         <h3>IT Strategy & Consulting</h3>
-        <p>Align your technology initiatives with business goals through strategic planning and expert guidance.</p>
+        <p>Transform your business with strategic technology planning focused on innovation and digital resilience.</p>
+        <ul class="service-features">
+          <li>Digital Transformation & Business Model Innovation</li>
+          <li>Technology & Cybersecurity Due Diligence for M&A</li>
+          <li>Board-Level Cybersecurity & Technology Reporting</li>
+        </ul>
         <a href="/services/it-strategy" class="btn-outline">Learn More</a>
       </div>
     </div>
