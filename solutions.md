@@ -4,6 +4,55 @@ title: Solutions
 permalink: /solutions/
 ---
 
+<style>
+.process-step {
+  background-color: #222222 !important;
+  border: 1px solid #333333 !important;
+  transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+  padding-top: 0 !important;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.process-step:hover {
+  border-color: #00FFFF !important;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 255, 255, 0.1);
+}
+
+.process-step .step-number {
+  background: linear-gradient(135deg, #A100FF, #00FFFF) !important;
+  color: #FFFFFF !important;
+  font-weight: bold;
+  width: 100% !important;
+  height: 40px !important;
+  border-radius: 0 !important;
+  margin-bottom: 20px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.process-step .step-content {
+  padding: 0 20px 20px !important;
+}
+
+.process-step .step-content h3 {
+  color: #00FFFF !important;
+  font-size: 1.3rem !important;
+  margin-bottom: 12px !important;
+}
+
+.process-step .step-content p {
+  color: #CCCCCC !important;
+  font-size: 0.95rem !important;
+  line-height: 1.6 !important;
+}
+</style>
+
 <section class="page-header">
   <div class="container">
     <div class="page-header-content">
@@ -87,11 +136,13 @@ permalink: /solutions/
   </div>
 </section>
 
-<section class="service-process">
+<section class="service-process" style="background-color: #1A1A1A !important; position: relative; overflow: hidden; padding: 80px 0;">
+  <div style="content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 5px; background: linear-gradient(90deg, #A100FF, #00FFFF);"></div>
   <div class="container">
-    <div class="section-header">
-      <h2>Our Partnership Blueprint</h2>
-      <p>We succeed when you succeed. Our approach is a collaborative blueprint designed to de-risk innovation and accelerate value creation. It's a continuous cycle, not a linear path.</p>
+    <div class="section-header" style="text-align: center; margin-bottom: 50px;">
+      <h2 style="color: #F5F5F5 !important; position: relative; display: inline-block; font-size: 2.25rem; margin-bottom: 15px;">Our Partnership Blueprint</h2>
+      <div style="content: ''; position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); width: 60px; height: 3px; background-color: #00FFFF;"></div>
+      <p style="color: #CCCCCC !important; max-width: 900px !important; margin: 30px auto 40px !important; font-size: 1.125rem;">We succeed when you succeed. Our approach is a collaborative blueprint designed to de-risk innovation and accelerate value creation. It's a continuous cycle, not a linear path.</p>
     </div>
     <div class="process-steps">
       <div class="process-step">
