@@ -1,0 +1,16 @@
+# Jekyll build directory
+_site/
+
+# Jekyll cache
+.jekyll-cache/
+.sass-cache/
+.jekyll-metadata
+
+# Firebase
+.firebase/
+firebase-debug.log
+
+# Local development
+.DS_Store
+*.log
+node_modules/
