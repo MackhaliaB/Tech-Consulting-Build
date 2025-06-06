@@ -12,6 +12,7 @@
   margin-bottom: 8px;
   font-size: 0.9rem;
   line-height: 1.4;
+  color: #CCCCCC !important;
 }
 
 .service-features li:before {
@@ -23,7 +24,7 @@
 }
 
 /* Override the white background in services.scss */
-.service-card {
+.service-card, .solution-card {
   background-color: #1A1A1A !important;
   border: 1px solid #333333 !important;
   transition: all 0.3s ease !important;
@@ -33,29 +34,29 @@
   height: 100% !important;
 }
 
-.service-card:hover {
+.service-card:hover, .solution-card:hover {
   background-color: #1A1A1A !important;
   border-color: #00FFFF !important;
   box-shadow: 0 0 15px rgba(0, 255, 255, 0.2) !important;
   transform: translateY(-5px) !important;
 }
 
-.service-card .service-icon i {
+.service-card .service-icon i, .solution-card .solution-icon i {
   background-color: rgba(0, 255, 255, 0.1) !important;
   color: #00FFFF !important;
 }
 
-.service-card h3 {
+.service-card h3, .solution-card h3 {
   color: #F5F5F5 !important;
   font-size: 1.5rem !important;
 }
 
-.service-card p {
+.service-card p, .solution-card p {
   color: #CCCCCC !important;
   font-size: 1rem !important;
 }
 
-.service-card .btn-outline {
+.service-card .btn-outline, .solution-card .btn-outline {
   margin-top: auto !important;
   color: #00FFFF !important;
   border: 1px solid #00FFFF !important;
@@ -67,7 +68,7 @@
   padding: 8px 16px !important;
 }
 
-.service-card .btn-outline:hover {
+.service-card .btn-outline:hover, .solution-card .btn-outline:hover {
   background-color: rgba(0, 255, 255, 0.1) !important;
   color: #00FFFF !important;
 }
@@ -108,13 +109,13 @@
 }
 
 /* Service process section styling */
-.service-process {
+.service-process, .solution-approach {
   background-color: #1A1A1A !important;
   position: relative;
   overflow: hidden;
 }
 
-.service-process::before {
+.service-process::before, .solution-approach::before {
   content: "";
   position: absolute;
   top: 0;
@@ -124,13 +125,13 @@
   background: linear-gradient(90deg, #A100FF, #00FFFF);
 }
 
-.service-process .section-header h2 {
+.service-process .section-header h2, .solution-approach .section-header h2 {
   color: #F5F5F5 !important;
   position: relative;
   display: inline-block;
 }
 
-.service-process .section-header h2::after {
+.service-process .section-header h2::after, .solution-approach .section-header h2::after {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -140,17 +141,17 @@
   background-color: #00FFFF;
 }
 
-.service-process .section-header p {
+.service-process .section-header p, .solution-approach .section-header p {
   color: #CCCCCC !important;
   max-width: 900px !important;
   margin: 30px auto 40px !important;
 }
 
-.process-steps {
+.process-steps, .approach-steps {
   position: relative;
 }
 
-.process-steps::before {
+.process-steps::before, .approach-steps::before {
   content: "";
   position: absolute;
   top: 30px;
@@ -163,45 +164,46 @@
   opacity: 0.3;
 }
 
-.process-step {
+.process-step, .approach-step {
   background-color: #222222 !important;
-  border: 1px solid #333333;
+  border: 1px solid #333333 !important;
   transition: all 0.3s ease;
   position: relative;
   z-index: 1;
 }
 
-.process-step:hover {
-  border-color: #00FFFF;
+.process-step:hover, .approach-step:hover {
+  border-color: #00FFFF !important;
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 255, 255, 0.1);
 }
 
-.process-step .step-number {
+.process-step .step-number, .approach-step .step-number {
   background: linear-gradient(135deg, #A100FF, #00FFFF) !important;
   color: #FFFFFF !important;
   font-weight: bold;
 }
 
-.process-step .step-content h3 {
+.process-step .step-content h3, .approach-step .step-content h3 {
   color: #00FFFF !important;
   font-size: 1.3rem !important;
   margin-bottom: 12px !important;
 }
 
-.process-step .step-content p {
+.process-step .step-content p, .approach-step .step-content p {
   color: #CCCCCC !important;
   font-size: 0.95rem !important;
   line-height: 1.6 !important;
 }
 
 /* Technologies section styling */
-.technologies {
+.technologies, .testimonials, .partners {
   position: relative;
   overflow: hidden;
+  background-color: #1A1A1A !important;
 }
 
-.technologies::before {
+.technologies::before, .testimonials::before, .partners::before {
   content: "";
   position: absolute;
   top: 0;
@@ -211,13 +213,13 @@
   background: linear-gradient(90deg, #00FFFF, #A100FF);
 }
 
-.technologies .section-header h2 {
+.technologies .section-header h2, .testimonials .section-header h2, .partners .section-header h2 {
   color: #F5F5F5 !important;
   position: relative;
   display: inline-block;
 }
 
-.technologies .section-header h2::after {
+.technologies .section-header h2::after, .testimonials .section-header h2::after, .partners .section-header h2::after {
   content: "";
   position: absolute;
   bottom: -10px;
@@ -227,7 +229,7 @@
   background-color: #00FFFF;
 }
 
-.technologies .section-header p {
+.technologies .section-header p, .testimonials .section-header p, .partners .section-header p {
   color: #CCCCCC !important;
   max-width: 900px !important;
   margin: 30px auto 40px !important;
@@ -278,6 +280,31 @@
 
 .tech-category .tech-list li:last-child {
   border-bottom: none !important;
+}
+
+/* Testimonials styling */
+.testimonial {
+  background-color: #222222 !important;
+  border: 1px solid #333333 !important;
+}
+
+.testimonial-content p {
+  color: #CCCCCC !important;
+}
+
+.testimonial-author h4 {
+  color: #F5F5F5 !important;
+}
+
+.testimonial-author p {
+  color: #CCCCCC !important;
+}
+
+/* Partner logos styling */
+.partner-logo {
+  background-color: #222222 !important;
+  border: 1px solid #333333 !important;
+  color: #F5F5F5 !important;
 }
 
 /* CTA section styling */
@@ -353,5 +380,14 @@
 }
 
 .page-header-content p {
+  color: #CCCCCC !important;
+}
+
+/* Solutions intro styling */
+.solutions-intro {
+  background-color: #1A1A1A !important;
+}
+
+.intro-content p {
   color: #CCCCCC !important;
 }
