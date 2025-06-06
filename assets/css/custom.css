@@ -31,3 +31,38 @@
 .service-card .btn-outline {
   margin-top: auto;
 }
+
+/* Navigation styles update */
+.site-header .main-nav ul {
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-header .main-nav ul li a {
+  color: #F5F5F5;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s ease;
+  font-weight: 500;
+}
+
+.site-header .main-nav ul li a:hover {
+  color: #00FFFF; /* Cyan accent color */
+  text-decoration: none;
+}
+
+.site-header .main-nav ul li a.cta-button {
+  background-color: #A100FF;
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.site-header .main-nav ul li a.cta-button:hover {
+  background-color: #7700BB;
+  color: #FFFFFF;
+}
