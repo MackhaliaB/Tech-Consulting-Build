@@ -6,10 +6,34 @@
     <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/override.css' | relative_url }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        /* Inline critical CSS to ensure it's applied */
+        .service-card {
+            background-color: #1A1A1A !important;
+            border: 1px solid #333333 !important;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2) !important;
+        }
+        .service-card:hover {
+            background-color: #1A1A1A !important;
+            border-color: #00FFFF !important;
+            box-shadow: 0 0 15px rgba(0, 255, 255, 0.2) !important;
+        }
+        .service-card .service-icon i {
+            background-color: rgba(0, 255, 255, 0.1) !important;
+            color: #00FFFF !important;
+        }
+        .service-card h3 {
+            color: #F5F5F5 !important;
+        }
+        .service-card p {
+            color: #CCCCCC !important;
+        }
+    </style>
     {% seo %}
 </head>
 <body>

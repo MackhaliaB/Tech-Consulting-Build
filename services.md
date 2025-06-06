@@ -16,88 +16,88 @@ permalink: /services/
 <section class="services-list">
   <div class="container">
     <div class="services-grid">
-      <div class="service-card">
+      <div class="service-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
         <div class="service-icon">
-          <i class="fas fa-code"></i>
+          <i class="fas fa-code" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
-        <h3>Custom Software Development</h3>
-        <p>Build intelligent, secure software solutions that address your unique business challenges and drive innovation.</p>
+        <h3 style="color: #F5F5F5 !important;">Custom Software Development</h3>
+        <p style="color: #CCCCCC !important;">Build intelligent, secure software solutions that address your unique business challenges and drive innovation.</p>
         <ul class="service-features">
           <li>AI-Integrated Application Development</li>
           <li>Secure Software Supply Chain (SSCM) Services</li>
           <li>Low-Code/No-Code Platform Customization</li>
         </ul>
-        <a href="/services/software-development" class="btn-outline">Learn More</a>
+        <a href="/services/software-development" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
       
-      <div class="service-card">
+      <div class="service-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
         <div class="service-icon">
-          <i class="fas fa-cloud"></i>
+          <i class="fas fa-cloud" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
-        <h3>Cloud Transformation</h3>
-        <p>Optimize your cloud environment with advanced security, cost management, and serverless architectures.</p>
+        <h3 style="color: #F5F5F5 !important;">Cloud Transformation</h3>
+        <p style="color: #CCCCCC !important;">Optimize your cloud environment with advanced security, cost management, and serverless architectures.</p>
         <ul class="service-features">
           <li>FinOps (Cloud Financial Operations) Consulting</li>
           <li>Cloud-Native Security & CNAPP Implementation</li>
           <li>Serverless and Edge Computing Architecture</li>
         </ul>
-        <a href="/services/cloud-transformation" class="btn-outline">Learn More</a>
+        <a href="/services/cloud-transformation" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
       
-      <div class="service-card">
+      <div class="service-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
         <div class="service-icon">
-          <i class="fas fa-shield-alt"></i>
+          <i class="fas fa-shield-alt" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
-        <h3>Cybersecurity</h3>
-        <p>Protect your business with proactive security strategies, threat hunting, and comprehensive resilience planning.</p>
+        <h3 style="color: #F5F5F5 !important;">Cybersecurity</h3>
+        <p style="color: #CCCCCC !important;">Protect your business with proactive security strategies, threat hunting, and comprehensive resilience planning.</p>
         <ul class="service-features">
           <li>AI Attack Surface Management (AI-ASM)</li>
           <li>Proactive Threat Hunting & Managed Detection and Response</li>
           <li>Cyber Resilience & Incident Response Planning</li>
         </ul>
-        <a href="/services/cybersecurity" class="btn-outline">Learn More</a>
+        <a href="/services/cybersecurity" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
       
-      <div class="service-card">
+      <div class="service-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
         <div class="service-icon">
-          <i class="fas fa-chart-line"></i>
+          <i class="fas fa-chart-line" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
-        <h3>Data Analytics</h3>
-        <p>Transform your data into actionable insights with real-time analytics, predictive modeling, and robust governance.</p>
+        <h3 style="color: #F5F5F5 !important;">Data Analytics</h3>
+        <p style="color: #CCCCCC !important;">Transform your data into actionable insights with real-time analytics, predictive modeling, and robust governance.</p>
         <ul class="service-features">
           <li>Real-Time Data Analytics & Streaming Platforms</li>
           <li>Predictive and Prescriptive Analytics</li>
           <li>Data Governance and Master Data Management (MDM)</li>
         </ul>
-        <a href="/services/data-analytics" class="btn-outline">Learn More</a>
+        <a href="/services/data-analytics" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
       
-      <div class="service-card">
+      <div class="service-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
         <div class="service-icon">
-          <i class="fas fa-robot"></i>
+          <i class="fas fa-robot" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
-        <h3>AI & Machine Learning</h3>
-        <p>Leverage cutting-edge AI technologies to transform business processes and create intelligent automation solutions.</p>
+        <h3 style="color: #F5F5F5 !important;">AI & Machine Learning</h3>
+        <p style="color: #CCCCCC !important;">Leverage cutting-edge AI technologies to transform business processes and create intelligent automation solutions.</p>
         <ul class="service-features">
           <li>Generative AI Strategy and Integration</li>
           <li>AI-Driven Process Automation (Hyperautomation)</li>
           <li>MLOps (Machine Learning Operations) Services</li>
         </ul>
-        <a href="/services/ai-machine-learning" class="btn-outline">Learn More</a>
+        <a href="/services/ai-machine-learning" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
       
-      <div class="service-card">
+      <div class="service-card" style="background-color: #1A1A1A !important; border: 1px solid #333333 !important;">
         <div class="service-icon">
-          <i class="fas fa-users-cog"></i>
+          <i class="fas fa-users-cog" style="background-color: rgba(0, 255, 255, 0.1) !important; color: #00FFFF !important;"></i>
         </div>
-        <h3>IT Strategy & Consulting</h3>
-        <p>Transform your business with strategic technology planning focused on innovation and digital resilience.</p>
+        <h3 style="color: #F5F5F5 !important;">IT Strategy & Consulting</h3>
+        <p style="color: #CCCCCC !important;">Transform your business with strategic technology planning focused on innovation and digital resilience.</p>
         <ul class="service-features">
           <li>Digital Transformation & Business Model Innovation</li>
           <li>Technology & Cybersecurity Due Diligence for M&A</li>
           <li>Board-Level Cybersecurity & Technology Reporting</li>
         </ul>
-        <a href="/services/it-strategy" class="btn-outline">Learn More</a>
+        <a href="/services/it-strategy" class="btn-outline" style="color: #00FFFF !important; border: 1px solid #00FFFF !important; background-color: transparent !important;">Learn More</a>
       </div>
     </div>
   </div>
