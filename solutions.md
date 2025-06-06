@@ -87,42 +87,42 @@ permalink: /solutions/
   </div>
 </section>
 
-<section class="solution-approach">
+<section class="service-process">
   <div class="container">
     <div class="section-header">
       <h2>Our Partnership Blueprint</h2>
       <p>We succeed when you succeed. Our approach is a collaborative blueprint designed to de-risk innovation and accelerate value creation. It's a continuous cycle, not a linear path.</p>
     </div>
-    <div class="approach-steps">
-      <div class="approach-step">
+    <div class="process-steps">
+      <div class="process-step">
         <div class="step-number">1</div>
         <div class="step-content">
           <h3>Align & Envision</h3>
           <p>We start by aligning with your executive vision. Through strategic workshops and value stream mapping, we dive deep into your business objectives and challenges. Together, we define "what's possible" and build a business case for change, focusing on clear, measurable outcomes.</p>
         </div>
       </div>
-      <div class="approach-step">
+      <div class="process-step">
         <div class="step-number">2</div>
         <div class="step-content">
           <h3>Co-Create & Prototype</h3>
           <p>This is where ideas take shape. Working as a single, integrated team with your experts, we design and build functional prototypes. This agile, hands-on approach allows us to test assumptions, gather real-world feedback, and validate the solution's design and user experience before significant investment.</p>
         </div>
       </div>
-      <div class="approach-step">
+      <div class="process-step">
         <div class="step-number">3</div>
         <div class="step-content">
           <h3>Build with Intelligence</h3>
           <p>Leveraging our DevSecOps culture, we build your solution in rapid, transparent sprints. Security and quality are embedded from the start. We utilize AI-assisted development tools and automation to increase velocity and ensure the final product is robust, scalable, and secure by design.</p>
         </div>
       </div>
-      <div class="approach-step">
+      <div class="process-step">
         <div class="step-number">4</div>
         <div class="step-content">
           <h3>Launch & Empower</h3>
           <p>A successful launch goes beyond technical deployment. We focus on empowering your teams through comprehensive change management, training, and documentation. We ensure your people are equipped and excited to adopt the new solution and make it their own.</p>
         </div>
       </div>
-      <div class="approach-step">
+      <div class="process-step">
         <div class="step-number">5</div>
         <div class="step-content">
           <h3>Evolve & Scale</h3>
